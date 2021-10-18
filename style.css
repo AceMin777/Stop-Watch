@@ -1,0 +1,49 @@
+/*in body we style its design*/
+body {
+    background: #09b7;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+/*Style the div box which is the position of the text and design*/
+.box {
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+
+h1, 
+h2, 
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+}
+
+/*Seconds and Tens chare the font size. I forgot the s in tens so 
+seconds would only have the font sized changed*/
+#seconds,
+#tens {
+    font-size: 2em;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+
+/*Changes the butons color when the cursor hovers over button*/
+button:hover {
+    background: white;
+    color: #09b7;
+    font-weight: 800;
+    text-transform: capitalize;
+}
